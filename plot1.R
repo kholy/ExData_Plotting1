@@ -1,9 +1,6 @@
-filename2<-"household_power_consumption.2.2007.txt"
 filename<-"household_power_consumption.txt"
-currentworkingdirectory="/Users/mohamedelkholy/coursera/datascience/exploratory/week1/pa1"
-setwd(currentworkingdirectory)
-setClass('MyDate')
-setAs("character","myDate", function(from) as.Date(from, format="%d/%m/%Y") )
+#setClass('MyDate')
+#setAs("character","myDate", function(from) as.Date(from, format="%d/%m/%Y") )
 skiprows=66636
 readrows=2881
 png(filename="plot1.png",width = 480, height = 480)
